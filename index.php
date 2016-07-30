@@ -7,16 +7,18 @@
 </head>
 <body>
 <? include("blocks/order.php");?>
+	<div id="marquee">Мы не держим армию телефонных мендежров, которая удваивает стоимость заказов. В нашей команде только эксперты по большинству дисциплин. </div>
+<div> dfd</div>
 <? include("blocks/header.php");?>
 <div id="main">
 	<div id="content">
 		<? include("blocks/slides.php");?>
-
+		<div style="position: relative; top: -50px;" id="order2"></div>
 <div class="box1">
 	<h1 style="font-size: 46px;text-transform: uppercase;">5 причин заказать именно у нас:</h1>
 	<div class="box4">
 		<img src="img/reasons/1.png">
-		<p>Не переплачивай компаниям в 5-6 раз. Возьми у нас контакты лучших авторов</p>
+		<p>Не плати за телефонных менеджеров! Воспользуйся акцией "Три цены"</p>
 	</div>
 	<div class="box4">
 		<img src="img/reasons/2.png">
@@ -36,6 +38,7 @@
 	</div>
 	<div class="shadow_b"></div>
 </div>
+		<div style="position: relative; top: -50px;" id="order1"></div>
 <div class="box1">
 	<h1 style="font-weight: normal;">Не теряй время! Закажи работу или автора прямо сейчас!</h1>
 
@@ -89,11 +92,11 @@
 	
 	<div class="shadow_b"></div>
 </div>
-<h2>Закажи сейчас, и мы найдем для тебя работу или автора <br><span>за одни сутки!</span></h2>
+<h2>Закажи сейчас, и мы найдем для тебя диплом или автора <br><span>за одни сутки!</span></h2>
 <div class="box2">
 	<div class="number" style="width: 750px;
 padding-top: 10px;">
-			<p style="margin-left: 135px;"><img src="img/phone2.png" style="float: left;">Никаких менеджеров!</p>
+			<p style="margin-left: 135px;"><img src="img/phone2.png" style="float: left;" class="blink">Никаких менеджеров!</p>
 			<p style="margin: 0px 20px;"><img src="img/vk.png" style="float: left;">djin-diplom@mail.ru</p>
 			
 		</div>
@@ -144,7 +147,19 @@ padding-top: 10px;">
 		<? include("blocks/popup.php");?>
 	</div>
 </div>
+<div id="slidebox1">
+	<a class="close"></a>
+	<h2>Акция</h2>
+	<h2>"Три цены"</h2>
+	<h3>Диплом=3000</h3>
+	<h3>Курсовая=1500</h3>
+	<h3>Реферат=500</h3>
+	<h2>Контакты</h2>
+	<h2>всех авторов</h2>
+	<h2>по 100 рублей!</h2>
+	<a href="#order2">5 причин заказать работу у нас...</a>
 
+</div>
 
 
 

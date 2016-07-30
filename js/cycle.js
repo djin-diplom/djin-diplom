@@ -1329,3 +1329,54 @@ $.fn.cycle.transitions.wipe = function($cont, $slides, opts) {
 };
 
 })(jQuery);
+
+
+
+function blink(selector){
+	$(selector).fadeOut(600, function(){
+		$(this).fadeIn(900, function(){
+			blink(this);
+		});
+	});
+}
+
+$(document).ready(function(){
+	blink('.blink');
+	$(function() {
+
+		var marquee = $("#marquee");
+		marquee.css({"overflow": "hidden", "width": "100%"});
+
+		// оболочка для текста ввиде span (IE не любит дивы с inline-block)
+		marquee.wrapInner("<span>");
+		marquee.find("span").css({ "width": "50%", "display": "inline-block", "text-align":"center" });
+		marquee.append(marquee.find("span").clone()); // тут у нас два span с текстом
+
+		marquee.wrapInner("<div>");
+		marquee.find("div").css("width", "200%");
+
+		var reset = function() {
+			$(this).css("margin-left", "0%");
+			$(this).animate({ "margin-left": "-100%" }, 12000, 'linear', reset);
+		};
+
+		reset.call(marquee.find("div"));
+
+	});
+	$(function() {
+		$(window).scroll(function(){
+			/* when reaching the element with id "last" we want to show the slidebox. Let's get the distance from the top to the element */
+			var distanceTop = $('#last').offset().top - $(window).height();
+
+			if  ($(window).scrollTop() > distanceTop)
+				$('#slidebox1').animate({'right':'0px'},300);
+			else
+				$('#slidebox1').stop(true).animate({'right':'-430px'},100);
+		});
+
+		/* remove the slidebox when clicking the cross */
+		$('#slidebox1 .close').bind('click',function(){
+			$(this).parent().remove();
+		});
+	});
+});

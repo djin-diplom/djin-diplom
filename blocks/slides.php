@@ -6,6 +6,5 @@
 				<img src="slides/2.jpg">
 				
 			</div>
-			
 			</div>
 <div class="clear"></div>
