@@ -12,11 +12,11 @@ if(isset($_POST['submit'])) {
 	}
 	
 	//Проверка дата сдачи
-	if(trim($_POST['date']) == '') {
-		$hasError = true;
-	} else {
-		$date = trim($_POST['date']);
-	}
+	//if(trim($_POST['date']) == '') {
+	//	$hasError = true;
+	//} else {
+	//	$date = trim($_POST['date']);
+	//}
 	
 	//Проверка Поля имя
 	$name = trim($_POST['name']);

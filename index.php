@@ -16,48 +16,47 @@
 	<h1 style="font-size: 46px;text-transform: uppercase;">5 причин заказать именно у нас:</h1>
 	<div class="box4">
 		<img src="img/reasons/1.png">
-		<p>Цена готовой работы в несколько раз ниже обычной</p>
+		<p>Не переплачивай компаниям в 5-6 раз. Возьми у нас контакты лучших авторов</p>
 	</div>
 	<div class="box4">
 		<img src="img/reasons/2.png">
-		<p>Не нужно ждать, пока работу выполнят. Мы найдем ее за сутки</p>
+		<p>Не жди, пока работу выполнят. Мы найдем готовую работу за сутки</p>
 	</div>
 	<div class="box4">
 		<img src="img/reasons/3.png">
-		<p>Уникальность и качество гарантированы успешной сдачей</p>
+		<p>Уникальность и качество готовых работ гарантированы нашими экспертами</p>
 	</div>
 	<div class="box4" style="margin-left: 150px;">
 		<img src="img/reasons/4.png">
-		<p>Работу уже приняли в университете</p>
+		<p>Не переплачивай компаниям в 5-6 раз. Возьми у нас контакты лучших авторов.</p>
 	</div>
 	<div class="box4">
 		<img src="img/reasons/5.png">
-		<p>Работу всегда можно изменить за незначительную доплату</p>
+		<p>К работе бесплатно прилагаются речь, презентация, чертежи и многое другое!</p>
 	</div>
 	<div class="shadow_b"></div>
 </div>
 <div class="box1">
-	<h1 style="font-weight: normal;">Не теряй время. Выясни наличие своей работы прямо сейчас!</h1>
+	<h1 style="font-weight: normal;">Не теряй время! Закажи работу или автора прямо сейчас!</h1>
 
 <div id="form">
 <form class="popup-form" action="order2.php" method="post">
 	<input type="hidden" name="tid" value="Заказ работы">
 	<div>
-		<p class="set"><span>*</span>Тип работы</p>
+		<p class="set"><span>*</span>Заказ</p>
 		<select style="width: 310px;height: 30px;border: 1px solid #e3e3e3;" name="type">
-			<option>Готовая диссертация</option>
-			<option>Готовая дипломная работа</option>
-			<option>Готовая курсовая работа</option>
+			<option>Готовая дипломная</option>
+			<option>Готовая курсовая</option>
 			<option>Готовый реферат</option>
-			<option>Иная готовая работа</option>
+			<option>Контакт автора</option>
 		</select>
 	</div>
-	<div>
-		<p class="set"><span>*</span>Предполагаемая цена</p>
+	<!--<div>
+		<p class="set"><span>*</span>Ваше имя</p>
 		<input id="" onclick="" type="text" name="date" placeholder="" value="">
-	</div>
+	</div> -->
 	<div>
-		<p>Имя</p>
+		<p class="set"><span>*</span>Ваше имя</p>
 		<input id="" onclick="" type="text" name="name" placeholder="" value="">
 	</div>
 	<div>
@@ -90,12 +89,12 @@
 	
 	<div class="shadow_b"></div>
 </div>
-<h2>Закажи сейчас, и мы найдем для тебя диплом<br><span>за несколько часов!</span></h2>
+<h2>Закажи сейчас, и мы найдем для тебя работу или автора <br><span>за одни сутки!</span></h2>
 <div class="box2">
 	<div class="number" style="width: 750px;
 padding-top: 10px;">
-			<p style="margin-left: 135px;"><img src="img/phone2.png" style="float: left;">+7 (960) 590 95 72</p>
-			<p style="margin: 0px 20px;"><img src="img/vk.png" style="float: left;">djin-diplom@rambler.ru</p>
+			<p style="margin-left: 135px;"><img src="img/phone2.png" style="float: left;">Никаких менеджеров!</p>
+			<p style="margin: 0px 20px;"><img src="img/vk.png" style="float: left;">djin-diplom@mail.ru</p>
 			
 		</div>
 </div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251">
+    <file url="file://$PROJECT_DIR$/blocks/content.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/fancybox.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/footer.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/form.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/head.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/header.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/order.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/order1.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/order2.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/popup.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/slides.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/blocks/win.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/order1.php" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

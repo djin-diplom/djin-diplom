@@ -2,8 +2,9 @@
 <form class="popup-form" action="order2.php" method="post">
 	<input type="hidden" name="tid" value="Заказ работы">
 	<div>
-		<p class="set"><span>*</span>Тип работы</p>
+		<p class="set"><span>*</span>Заказ</p>
 		<select style="width: 310px;height: 30px;border: 1px solid #e3e3e3;" name="type">
+			<option>Контакт автора</option>
 			<option>Дипломная работа</option>
 			<option>Курсовая работа</option>
 			<option>Контрольная работа</option>
