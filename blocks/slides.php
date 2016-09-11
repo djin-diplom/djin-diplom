@@ -4,7 +4,6 @@
 			<div id="slides">
 				<img src="slides/1.jpg">
 				<img src="slides/2.jpg">
-				
 			</div>
-			</div>
+</div>
 <div class="clear"></div>

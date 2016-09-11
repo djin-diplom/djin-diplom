@@ -1,5 +1,5 @@
 <?php
-
+include("email.php");
 //Если форма отправлена
 if(isset($_POST['submit'])) {
 
@@ -22,11 +22,11 @@ if(isset($_POST['submit'])) {
 	$name = trim($_POST['name']);
 	
 	//Проверка поля телефон
-	if(trim($_POST['number']) == '') {
-		$hasError = true;
-	} else {
-		$number = trim($_POST['number']);
-	}
+	//if(trim($_POST['number']) == '') {
+	//	$hasError = true;
+	//} else {
+	//	$number = trim($_POST['number']);
+	//}
 	
 	//Проверка поля email
 	if(trim($_POST['email']) == '') {
@@ -50,25 +50,20 @@ if(isset($_POST['submit'])) {
 	
 	//Если ошибок нет, отправить email
 	if(!isset($hasError)) {
-		$emailTo = 'djin-diplom@mail.ru'; //Сюда введите Ваш email
+		$emailTo = $email; //Сюда введите Ваш email
 		$body = "
-		Тема: $tid \n\n
-		Тип работы: $type \n\n
-		Дата сдачи: $date \n\n
 		Имя: $name \n\n
-		Телефон: $number \n\n
 		Email: $email \n\n
-		Документы: $link \n\n
-		
-		
-		
-				
-				
+		Тип работы: $type \n\n
+		Тема: $tid \n\n
+		Документы: $link \n\n	
 		";
+		// Дата сдачи: $date \n\n
+		// Телефон: $number \n\n
 		
-		$headers = 'From site: "Diplom"' . "\r\n" . 'Reply-To: ' . $email;
-		
-		
+		$headers = 'From site: "djin-diplom"' . "\r\n" . 'Reply-To: ' . $email;
+
+		$subject = "Заказ клиента $name";
 
 		mail($emailTo, $subject, $body, $headers);
 		$emailSent = true;

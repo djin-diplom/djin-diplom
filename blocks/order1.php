@@ -1,5 +1,5 @@
 <?php
-
+include("email.php");
 //Если форма отправлена
 if(isset($_POST['submit'])) {
 
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
 	
 	//Если ошибок нет, отправить email
 	if(!isset($hasError)) {
-		$emailTo = 'djin-diplom@mail.ru'; //Сюда введите Ваш email
+		$emailTo = $email; //Сюда введите Ваш email
 		$body = "
 		Тема: $tid \n\n
 		Имя: $name \n\n

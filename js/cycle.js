@@ -1379,4 +1379,12 @@ $(document).ready(function(){
 			$(this).parent().remove();
 		});
 	});
+	$("div.slide_panel p.open").toggle(function(){
+		$("div.slide_panel").animate({left:'178px'},500);}, function() {
+		$("div.slide_panel").animate({left:0},500);
+	});
+	$("div.slide_panel_2 p.open").toggle(function(){
+		$("div.slide_panel_2").animate({left:'178px'},500);}, function() {
+		$("div.slide_panel_2").animate({left:0},500);
+	});
 });
