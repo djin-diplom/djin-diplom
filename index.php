@@ -7,15 +7,19 @@
 </head>
 <body>
 <? include("blocks/order.php");?>
-	<div id="marquee">Мы не держим армию телефонных мендежров, которая удваивает стоимость заказов. В нашей команде только эксперты по большинству дисциплин. </div>
-<div> dfd</div>
+<? include("email.php");?>
+	<div id="marquee">По цене одного заказа вы получите сразу несколько работ! В нашей команде только эксперты по всем основным дисциплинам. </div>
+<div id="marquee2">По цене одного заказа вы получите сразу несколько работ!</div>
 <? include("blocks/header.php");?>
 <div id="main">
 	<div id="content">
 		<? include("blocks/slides.php");?>
 		<div style="position: relative; top: -50px;" id="order2"></div>
 <div class="box1">
-	<h1 style="font-size: 46px;text-transform: uppercase;">5 причин заказать именно у нас:</h1>
+	<iframe id="iframe1" src="email/three-cols-images-clients/build.html" width="830" height="1150"></iframe>
+	<iframe id="iframe2" src="email/three-cols-images-clients/build.html" width="410" height="1750"></iframe>
+	<iframe id="iframe3" src="email/three-cols-images-clients/build.html" width="305" height="2100"></iframe>
+	<!--
 	<div class="box4">
 		<img src="img/reasons/1.png">
 		<p>Не плати за телефонных менеджеров! Воспользуйся акцией "Три цены"</p>
@@ -36,11 +40,12 @@
 		<img src="img/reasons/5.png">
 		<p>К работе бесплатно прилагаются речь, презентация, чертежи и многое другое!</p>
 	</div>
+	-->
 	<div class="shadow_b"></div>
 </div>
 		<div style="position: relative; top: -50px;" id="order1"></div>
 <div class="box1">
-	<h1 style="font-weight: normal;">Не теряй время! Закажи работу или автора прямо сейчас!</h1>
+	<h1 id="h1form" style="font-weight: normal;">Не теряй время! Закажи работу прямо сейчас!</h1>
 
 <div id="form">
 <form class="popup-form" action="order2.php" method="post">
@@ -51,7 +56,6 @@
 			<option>Готовая дипломная</option>
 			<option>Готовая курсовая</option>
 			<option>Готовый реферат</option>
-			<option>Контакт автора</option>
 		</select>
 	</div>
 	<!--<div>
@@ -60,19 +64,19 @@
 	</div> -->
 	<div>
 		<p class="set"><span>*</span>Ваше имя</p>
-		<input id="" onclick="" type="text" name="name" placeholder="" value="">
+		<input id="" onclick="" type="text" name="name" placeholder="Ваше имя" value="">
 	</div>
 	<div>
 		<p class="set"><span>*</span>Тема работы</p>
-		<input id="" onclick="" type="text" name="number" placeholder="" value="">
+		<input id="" onclick="" type="text" name="tid" placeholder="Тема работы" value="">
 	</div>
 	<div>
-		<p class="set"><span>*</span>Email</p>
-		<input id="" onclick="" type="text" name="email" placeholder="" value="">
+		<p class="set"><span>*</span>Ваш Email</p>
+		<input id="" onclick="" type="text" name="email" placeholder="Ваш Email" value="">
 	</div>
 	<div>
-		<p class="set"><span>*</span>Залейте документы на любой хостинг:<br>dropmefiles.com<br>zalil.ru<br>файлообменник.рф<br>и вставьте ссылку</p>
-		<input id="" onclick="" type="text" name="link" placeholder="Ссылка на документы" value="">
+		<p class="set">Залейте документы на любой хостинг:<br>dropmefiles.com<br>zalil.ru<br>файлообменник.рф<br>и вставьте ссылку</p>
+		<input id="" onclick="" type="text" name="link" placeholder="Ссылка на документы (хранилище)" value="">
 	</div>
 	<input class="button1" id="submit" type="submit" name="submit" value="Отправить">
 </form>
@@ -92,13 +96,13 @@
 	
 	<div class="shadow_b"></div>
 </div>
-<h2>Закажи сейчас, и мы найдем для тебя диплом или автора <br><span>за одни сутки!</span></h2>
+<h2 id="zacagiZeichas">Закажи сейчас, и мы найдем для тебя несколько дипломов <br><span>по цене одного заказа!</span></h2>
 <div class="box2">
 	<div class="number" style="width: 750px;
 padding-top: 10px;">
 			<p style="margin-left: 135px;"><img src="img/phone2.png" style="float: left;" class="blink">Никаких менеджеров!</p>
-			<p style="margin: 0px 20px;"><img src="img/vk.png" style="float: left;">djin-diplom@mail.ru</p>
-			
+			<p style="margin: 0px 20px;"><img src="img/vk.png" style="float: left;"><a href="mailto:<? echo $email; ?>" target="_blank"><? echo $email; ?></a></p>
+
 		</div>
 </div>
 <div class="clear"></div>
@@ -141,10 +145,8 @@ padding-top: 10px;">
 	</div>
 	<div class="shadow_b1"></div>
 </div>
-
 		
 		<? include("blocks/footer.php");?>
-		<? include("blocks/popup.php");?>
 	</div>
 </div>
 <div id="slidebox1">
@@ -154,60 +156,35 @@ padding-top: 10px;">
 	<h3>Диплом=3000</h3>
 	<h3>Курсовая=1500</h3>
 	<h3>Реферат=500</h3>
-	<h2>Контакты</h2>
-	<h2>всех авторов</h2>
-	<h2>по 100 рублей!</h2>
-	<a href="#order2">5 причин заказать работу у нас...</a>
+	<h2>Несколько</h2>
+	<h2>работ по цене</h2>
+	<h2>одного заказа</h2>
+	<a href="#order2">3 причины заказать работу у нас...</a>
 
 </div>
 
 
+<div class="slide_panel_wrap">
+	<div class="slide_panel">
+		<p class="open">Три цены для студентов!<br><span class="blink">Нажми!</span></p>
+		<p>Предоставляем уникальные работы по трем ценам, по цене одного заказа вы получите несколько работ!</p>
+		<a href="#order2"	>Подробнее...</a>
+	</div>
+</div>
 
-
-
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter23325985 = new Ya.Metrika({id:23325985,
-                    webvisor:true,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true});
-        } catch(e) { }
-    });
-
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/23325985" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="slide_panel_wrap_2">
+	<div class="slide_panel_2">
+		<p class="open">Наши контакты<br><br><span class="blink">Нажми!</span></p>
+		<p>Для клиентов</p>
+		<p><a href="mailto:<? echo $email; ?>" target="_blank"><? echo $email; ?></a></p>
+		<p><a href="https://freelance.ru/djin-diplom" target="_blank">Биржа frelance</a></p>
+		<p><a href="https://www.fl.ru/users/djin-diplom/" target="_blank">Биржа fl</a></p>
+		<p><a href="https://www.weblancer.net/users/djindiplom/" target="_blank">Биржа weblancer</a></p>
+		<p><a href="#order1">Форма для заказа</a></p>
+		<p>Для партнеров</p>
+		<p><a href="mailto:djin-diplom@rambler.ru" target="_blank">djin-diplom@rambler</a></p>
+	</div>
+</div>
 
 </body>
 </html>
