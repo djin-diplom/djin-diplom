@@ -572,7 +572,7 @@ a.close:hover{
 @media screen and (min-width: 600px) and (max-width:999px) {
     #footer {
         position: absolute;
-        top: 4900px;
+        top: 5130px;
     }
     .box3 {
        // float: none;
