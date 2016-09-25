@@ -14,8 +14,8 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
      (function (d, w, c) {
           (w[c] = w[c] || []).push(function() {
                try {
-                    w.yaCounter38786970 = new Ya.Metrika({
-                         id:38786970,
+                    w.yaCounter39811895 = new Ya.Metrika({
+                         id:39811895,
                          clickmap:true,
                          trackLinks:true,
                          accurateTrackBounce:true
@@ -35,7 +35,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
           } else { f(); }
      })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/38786970" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/39811895" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <script>
           function hide()
