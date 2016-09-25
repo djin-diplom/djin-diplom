@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT']."/email.php");
+include("/home/u632189451/public_html/email.php");
 //Если форма отправлена
 if(isset($_POST['submit'])) {
 
@@ -32,7 +32,7 @@ if(isset($_POST['submit'])) {
 	if(trim($_POST['email']) == '') {
 		$hasError = true;
 	} else {
-		$email = trim($_POST['email']);
+		$email_stud = trim($_POST['email']);
 	}
 	
 	//Проверка поля ссылка
@@ -53,7 +53,7 @@ if(isset($_POST['submit'])) {
 		$emailTo = $email;//Сюда введите Ваш email
 		$body = "
 		Имя: $name \n\n
-		Email: $email \n\n
+		Email: $email_stud \n\n
 		Тип работы: $type \n\n
 		Тема: $tid \n\n
 		Документы: $link \n\n	
@@ -61,7 +61,7 @@ if(isset($_POST['submit'])) {
 		// Дата сдачи: $date \n\n
 		// Телефон: $number \n\n
 		
-		$headers = 'From site: "djin-diplom"' . "\r\n" . 'Reply-To: ' . $email;
+		$headers = 'From site: "djin-diplom"' . "\r\n" . 'Reply-To: ' . $email_stud;
 
 		$subject = "Заказ клиента $name";
 
