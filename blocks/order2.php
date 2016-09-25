@@ -1,5 +1,5 @@
 <?php
-include("/home/u632189451/public_html/email.php");
+include($_SERVER['DOCUMENT_ROOT']."/email.php");
 //Если форма отправлена
 if(isset($_POST['submit'])) {
 
