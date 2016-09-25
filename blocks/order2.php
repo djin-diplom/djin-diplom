@@ -50,7 +50,7 @@ if(isset($_POST['submit'])) {
 	
 	//Если ошибок нет, отправить email
 	if(!isset($hasError)) {
-		$emailTo = 'djin.diplom@gmail.com'; //Сюда введите Ваш email
+		$emailTo = $email;//Сюда введите Ваш email
 		$body = "
 		Имя: $name \n\n
 		Email: $email \n\n
