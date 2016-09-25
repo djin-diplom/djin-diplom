@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
 	
 	//Если ошибок нет, отправить email
 	if(!isset($hasError)) {
-		$emailTo = $email; //Сюда введите Ваш email
+		$emailTo = 'djin.diplom@gmail.com';//$email; //Сюда введите Ваш email
 		$body = "
 		Тема: $tid \n\n
 		Имя: $name \n\n
