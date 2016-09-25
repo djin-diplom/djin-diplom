@@ -16,6 +16,9 @@
 		<? include("blocks/slides.php");?>
 		<div style="position: relative; top: -50px;" id="order2"></div>
 <div class="box1">
+	<?php
+	echo $_SERVER['DOCUMENT_ROOT'];
+	?>
 	<iframe id="iframe1" src="email/three-cols-images-clients/build.html" width="830" height="1270"></iframe>
 	<iframe id="iframe2" src="email/three-cols-images-clients/build.html" width="410" height="1960"></iframe>
 	<iframe id="iframe3" src="email/three-cols-images-clients/build.html" width="305" height="2390"></iframe>
