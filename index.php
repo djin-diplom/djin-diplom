@@ -180,7 +180,7 @@ padding-top: 10px;">
 		<p><a href="https://www.fl.ru/users/djin-diplom/" target="_blank">Биржа fl</a></p>
 		<p><a href="https://www.weblancer.net/users/djindiplom/" target="_blank">Биржа weblancer</a></p>
 		<p><a href="#order1">Форма для заказа</a></p>
-		<p><a href="<?php echo $site; ?>" target="_blank"><?php echo $site; ?></a></p>
+		<p><a href="" target="_blank"><?php echo $site; ?></a></p>
 	</div>
 </div>
 

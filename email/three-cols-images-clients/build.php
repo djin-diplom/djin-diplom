@@ -137,7 +137,7 @@ img {
   <tr>
     <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
       <br>
-      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href="<?php echo $site; ?>" target="_blank">"Диплом от Джина"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
+      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href="" target="_blank">"Диплом от Джина"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
     </td>
   </tr>
   <tr>
@@ -658,7 +658,7 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
         <tr>
           <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
             <br><br>
-            Директор студии <a href="<?php echo $site; ?>" target="_blank">"Диплом от Джина"</a>, кандидат философских наук <a href="https://freelance.ru/djin-diplom" target="_blank">Карина Ивановна Керн</a>.
+            Директор студии <a href="" target="_blank">"Диплом от Джина"</a>, кандидат философских наук <a href="https://freelance.ru/djin-diplom" target="_blank">Карина Ивановна Керн</a>.
             <br><br>
             Если работа не понравится – вы сможете написать жалобу по стандартной форме, и мы вернем вам деньги.
             Будьте с нами, и мы будем поддерживать вас!
@@ -670,7 +670,7 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
             <span class="ios-footer">
               Москва, ул. Строителей 11<br>
             </span>
-            <a href="<?php echo $site; ?>" style="color:#aaaaaa" target="_blank"><?php echo $site; ?></a><br>
+            <a href="" style="color:#aaaaaa" target="_blank"><?php echo $site; ?></a><br>
 
             <br><br>
 
