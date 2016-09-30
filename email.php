@@ -6,4 +6,4 @@
  * Time: 8:09
  */
 
-$email = 'djin.diplom@gmail.com';
+$email = 'diplomdjin@gmail.com';

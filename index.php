@@ -16,9 +16,9 @@
 		<? include("blocks/slides.php");?>
 		<div style="position: relative; top: -50px;" id="order2"></div>
 <div class="box1">
-	<iframe id="iframe1" src="email/three-cols-images-clients/build.html" width="830" height="1270"></iframe>
-	<iframe id="iframe2" src="email/three-cols-images-clients/build.html" width="410" height="1960"></iframe>
-	<iframe id="iframe3" src="email/three-cols-images-clients/build.html" width="305" height="2390"></iframe>
+	<iframe id="iframe1" src="email/three-cols-images-clients/build.php" width="830" height="1270"></iframe>
+	<iframe id="iframe2" src="email/three-cols-images-clients/build.php" width="410" height="1960"></iframe>
+	<iframe id="iframe3" src="email/three-cols-images-clients/build.php" width="305" height="2390"></iframe>
 	<!--
 	<div class="box4">
 		<img src="img/reasons/1.png">
@@ -180,8 +180,7 @@ padding-top: 10px;">
 		<p><a href="https://www.fl.ru/users/djin-diplom/" target="_blank">Биржа fl</a></p>
 		<p><a href="https://www.weblancer.net/users/djindiplom/" target="_blank">Биржа weblancer</a></p>
 		<p><a href="#order1">Форма для заказа</a></p>
-		<p>Для партнеров</p>
-		<p><a href="mailto:djin-diplom@rambler.ru" target="_blank">djin-diplom@rambler</a></p>
+		<p><a href="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>" target="_blank"><?php echo $_SERVER['DOCUMENT_ROOT']; ?></a></p>
 	</div>
 </div>
 

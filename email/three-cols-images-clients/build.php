@@ -1,4 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<?php
+$email = 'diplomdjin@gmail.com';
+?>
+?>
 <html lang="ru">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -132,7 +136,7 @@ img {
   <tr>
     <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
       <br>
-      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href="http://djin-diplom.96.lt/" target="_blank">"Диплом от Джина"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
+      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>" target="_blank">"Диплом от Джина"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
     </td>
   </tr>
   <tr>
@@ -643,7 +647,7 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
   </tr>
   <tr>
     <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:djin.diplom@gmail.com" target="_blank">djin.diplom@gmail.com</a>. Наши эксперты подберут для вас лучшие работы и бесплатно ознакомят с текстом.
+      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Наши эксперты подберут для вас лучшие работы и бесплатно ознакомят с текстом.
     </td>
   </tr>
 </table>
@@ -653,11 +657,11 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
         <tr>
           <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
             <br><br>
-            Директор студии <a href="http://djin-diplom.96.lt" target="_blank">"Диплом от Джина"</a>, кандидат философских наук <a href="https://freelance.ru/djin-diplom" target="_blank">Карина Ивановна Керн</a>.
+            Директор студии <a href="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>" target="_blank">"Диплом от Джина"</a>, кандидат философских наук <a href="https://freelance.ru/djin-diplom" target="_blank">Карина Ивановна Керн</a>.
             <br><br>
             Если работа не понравится – вы сможете написать жалобу по стандартной форме, и мы вернем вам деньги.
             Будьте с нами, и мы будем поддерживать вас!
-            Мы гарантируем конфиденциальность всех сделок и актуальность предоставляемой информации. Наши электронные адреса <a href="mailto:djin.diplom@gmail.com" target="_blank">djin.diplom@gmail.com</a> или <a href="mailto:djin-diplom@rambler.ru" target="_blank">djin-diplom@rambler.ru</a>.
+            Мы гарантируем конфиденциальность всех сделок и актуальность предоставляемой информации. Наши электронные адреса <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>.
             Возможна безопасная сделка на биржах фриланса <a href="https://freelance.ru/djin-diplom" target="_blank">freelance.ru</a>, <a href="https://www.weblancer.net/users/djindiplom/" target="_blank">weblancer.net</a> или <a href="https://www.fl.ru/users/djin-diplom/" target="_blank">fl.ru</a>.
             <br><br>
 
@@ -665,7 +669,7 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
             <span class="ios-footer">
               Москва, ул. Строителей 11<br>
             </span>
-            <a href="http://djin-diplom.96.lt" style="color:#aaaaaa" target="_blank">djin-diplom.96.lt</a><br>
+            <a href="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>" style="color:#aaaaaa" target="_blank"><?php echo $_SERVER['DOCUMENT_ROOT']; ?></a><br>
 
             <br><br>
 
