@@ -1,8 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <?php
+
+//$email = 'djin.diplom@gmail.com';
+//$site = 'djin-diplom.96.lt';
+
 $email = 'diplomdjin@gmail.com';
 $site = 'djin-diplom.hol.es';
-?>
+
 ?>
 <html lang="ru">
 <head>
@@ -126,7 +130,7 @@ img {
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-            Продаем легко уникальные готовые работы: рефераты, курсовые, дипломные проекты. Закажите работу сейчас, ответив на письмо! <span style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">В ответе укажите (1)тему работы, (2)тип (реферат, курсовая, диплом), (3)количество страниц, (4)уровень уникальности.</span>
+            Продаем легко уникальные готовые работы: рефераты, курсовые, дипломные проекты. Выполняем срочные контрольные, отчеты по практике и онлайн-экзамены. Закажите работу прямо сейчас, ответив на это письмо! <span style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">В ответе укажите (1)тему работы, (2)тип (реферат, курсовая, диплом), (3)количество страниц, (4)уровень уникальности.</span>
           <br><span style="color: green;">Новая акция: назовите желаемую стоимость работы, мы постараемся снизить наши цены!</span>
           </td>
         </tr>
@@ -648,7 +652,7 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
   </tr>
   <tr>
     <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Наши эксперты подберут для вас лучшие работы и бесплатно ознакомят с текстом.
+      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Возможно заключение договора, также вы можете приехать к нам в отдел маркетинга по адресу Москва ул. Строителей д. 11 офисы 234-236.
     </td>
   </tr>
 </table>

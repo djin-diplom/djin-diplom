@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6{
 #iframe3 {
     display: none;
 }
+#map1 {
+    display: inline;
+}
+
+
 h1 {
 font-size: 30px;
 line-height: 35px;
@@ -180,6 +185,7 @@ min-height: 500px;
 position:relative;
 margin:0 auto;
 background:url(../img/box1.png) no-repeat top center;
+    background-size: cover;
 border-bottom:3px solid #e34a4c;
 margin-bottom:60px;
 padding: 20px;
@@ -527,6 +533,9 @@ a.close:hover{
     #iframe3 {
         display: none;
     }
+    #map1 {
+        display: none;
+    }
     #marquee{
         visibility: hidden;
     }
@@ -572,7 +581,7 @@ a.close:hover{
 @media screen and (min-width: 600px) and (max-width:999px) {
     #footer {
         position: absolute;
-        top: 5130px;
+        top: 5195px;
     }
     .box3 {
        // float: none;
@@ -581,6 +590,9 @@ a.close:hover{
         display: none;
     }
     .shadow_b1 {
+        display: none;
+    }
+    #map1 {
         display: none;
     }
     #otziv {
@@ -679,7 +691,7 @@ a.close:hover{
     }
     #content {
         width:440px;
-        height: 4500px;
+        height: 4750px;
         background:;
         padding:0px 34px;
     }
@@ -704,8 +716,8 @@ a.close:hover{
         margin:0 auto;
         //background: none;
         border-bottom:3px solid #e34a4c;
-        margin-bottom:60px;
-        padding: 20px;
+        margin-bottom:-20px;
+        padding: 0px;
     }
     #marquee{
         display: none;
@@ -751,6 +763,9 @@ a.close:hover{
 @media screen and (min-width: 480px) and (max-width:600px) {
 
     #zacagiZeichas {
+        display: none;
+    }
+    #map1 {
         display: none;
     }
     #logo {
@@ -864,7 +879,7 @@ a.close:hover{
     }
     #content {
         width:340px;
-        height: 4500px;
+        height: 5000px;
         background:;
         padding:0px 0px;
     }
@@ -939,6 +954,9 @@ a.close:hover{
 @media screen and (min-width: 0px) and (max-width:479px) {
     #vkvk{
         top: 0px;
+    }
+    #map1 {
+        display: none;
     }
     #header {
         width:100%;
@@ -1059,7 +1077,7 @@ a.close:hover{
     }
     #content {
         width:340px;
-        height: 4500px;
+        height: 5000px;
         background:;
         padding:0px 0px;
     }

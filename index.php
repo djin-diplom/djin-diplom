@@ -16,9 +16,9 @@
 		<? include("blocks/slides.php");?>
 		<div style="position: relative; top: -50px;" id="order2"></div>
 <div class="box1">
-	<iframe id="iframe1" src="email/three-cols-images-clients/build.php" width="830" height="1270"></iframe>
-	<iframe id="iframe2" src="email/three-cols-images-clients/build.php" width="410" height="1960"></iframe>
-	<iframe id="iframe3" src="email/three-cols-images-clients/build.php" width="305" height="2390"></iframe>
+	<iframe id="iframe1" src="email/three-cols-images-clients/build.php" width="830" height="1360"></iframe>
+	<iframe id="iframe2" src="email/three-cols-images-clients/build.php" width="410" height="2130"></iframe>
+	<iframe id="iframe3" src="email/three-cols-images-clients/build.php" width="305" height="2630"></iframe>
 	<!--
 	<div class="box4">
 		<img src="img/reasons/1.png">
@@ -56,6 +56,9 @@
 			<option>Готовая дипломная</option>
 			<option>Готовая курсовая</option>
 			<option>Готовый реферат</option>
+			<option>Экспресс-контрольная</option>
+			<option>Экспресс-отчет по практике</option>
+			<option>Оналайн-экзамен</option>
 		</select>
 	</div>
 	<!--<div>
@@ -96,7 +99,11 @@
 	
 	<div class="shadow_b"></div>
 </div>
-<h2 id="zacagiZeichas">Закажи сейчас, и мы найдем для тебя несколько дипломов <br><span>по цене одного заказа!</span></h2>
+
+
+<h2 id="zacagiZeichas">Закажи сейчас, и мы найдем для тебя несколько работ <br><span>по цене одного заказа!</span></h2>
+
+		<img id="map1" src="img/mapdj.jpg" width="940">
 <div class="box2">
 	<div class="number" style="width: 750px;
 padding-top: 10px;">
