@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <?php
 
-//$email = 'djin.diplom@gmail.com';
-//$site = 'djin-diplom.96.lt';
+$email = 'djin.diplom@gmail.com';
+$site = 'djin-diplom.96.lt';
 
-$email = 'diplomdjin@gmail.com';
-$site = 'djin-diplom.hol.es';
+//$email = 'diplomdjin@gmail.com';
+//$site = 'djin-diplom.hol.es';
 
 ?>
 <html lang="ru">
