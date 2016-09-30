@@ -1,5 +1,6 @@
 <?php
-include("/home/u632189451/public_html/email.php");
+$email = 'diplomdjin@gmail.com';
+$site = 'djin-diplom.hol.es';
 //Если форма отправлена
 if(isset($_POST['submit'])) {
 
