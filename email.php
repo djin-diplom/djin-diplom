@@ -7,3 +7,4 @@
  */
 
 $email = 'diplomdjin@gmail.com';
+$site = 'djin-diplom.hol.es';
