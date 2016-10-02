@@ -2,5 +2,5 @@
 RewriteBase /
 
 # Return 404
-ErrorDocument 404 Вы ввели неверный адрес.
+ErrorDocument 404 /404.html
 DirectoryIndex index.php
