@@ -11,5 +11,5 @@
 			<img src="img/vk.png" style="float: left;width: 70px;"><a href="#order1" id="zakaz1" class="blink">Купить работу</a>
 		</div>
 	</div>
-
+	<h1 id="site_name"><? echo $site_name; ?></h1>
 </div>

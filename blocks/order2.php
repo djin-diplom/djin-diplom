@@ -1,19 +1,6 @@
 <?php
 
-$per = 1;
-
-switch ($per){
-	case 1:
-		$email = 'djin.diplom@gmail.com';
-		$site = 'djin-diplom.96.lt';
-		$site_name = 'Диплом от Джина';
-		break;
-	case 2:
-		$email = 'diplomdjin@gmail.com';
-		$site = 'http://djin-diplom.hol.es';
-		$site_name = 'Диплом от Джайны';
-		break;
-}
+include("email.php");
 
 //Если форма отправлена
 if(isset($_POST['submit'])) {

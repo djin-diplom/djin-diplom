@@ -16,9 +16,9 @@
 		<? include("blocks/slides.php");?>
 		<div style="position: relative; top: -50px;" id="order2"></div>
 <div class="box1">
-	<iframe id="iframe1" src="email/three-cols-images-clients/build.php" width="830" height="1360"></iframe>
-	<iframe id="iframe2" src="email/three-cols-images-clients/build.php" width="410" height="2130"></iframe>
-	<iframe id="iframe3" src="email/three-cols-images-clients/build.php" width="305" height="2630"></iframe>
+	<iframe id="iframe1" src="email/three-cols-images-clients/build.php" width="830" height="1370"></iframe>
+	<iframe id="iframe2" src="email/three-cols-images-clients/build.php" width="410" height="2150"></iframe>
+	<iframe id="iframe3" src="email/three-cols-images-clients/build.php" width="305" height="2660"></iframe>
 	<!--
 	<div class="box4">
 		<img src="img/reasons/1.png">
@@ -133,7 +133,7 @@ padding-top: 10px;">
 		</div>
 		<div class="box3" style="margin-left: 45px;">
 			<img src="img/otzivi/4.jpg">
-			<p>Михаил В. Преподаватель истории, кандидат: "Огромным достоинством компании "Джин Диплом" является короткий срок исполнения каждого заказа. За одни сутки студент может получить готовую работу - и это замечательно!"</p>
+			<p>Михаил В. Преподаватель истории, кандидат: "Огромным достоинством компании "<? echo $site_name; ?>" является короткий срок исполнения каждого заказа. За одни сутки студент может получить готовую работу - и это замечательно!"</p>
 			<p class="name"></p>
 		</div>
 		<div class="box3">

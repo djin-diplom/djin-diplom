@@ -17,6 +17,6 @@ switch ($per){
     case 2:
         $email = 'diplomdjin@gmail.com';
         $site = 'http://djin-diplom.hol.es';
-        $site_name = 'Диплом от Джайны';
+        $site_name = 'Диплом от Джейн';
         break;
 }

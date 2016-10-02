@@ -97,6 +97,16 @@ width:100%;
 height:500px;
 background:url(../img/header.jpg) no-repeat top center;
 }
+
+#site_name {
+    position: absolute;
+    font-size: 3em;
+    top: 425px;
+    left: 36%;
+    //float: none;
+}
+
+
 .logo {
 margin: 0 auto;
 display: block;
@@ -583,6 +593,13 @@ a.close:hover{
         position: absolute;
         top: 5195px;
     }
+    #site_name {
+        position: absolute;
+        font-size: 3em;
+        top: 425px;
+        left: 26%;
+    //float: none;
+    }
     .box3 {
        // float: none;
     }
@@ -764,6 +781,13 @@ a.close:hover{
 
     #zacagiZeichas {
         display: none;
+    }
+    #site_name {
+        position: absolute;
+        font-size: 2em;
+        top: 425px;
+        left: 28%;
+    //float: none;
     }
     #map1 {
         display: none;
@@ -954,6 +978,9 @@ a.close:hover{
 @media screen and (min-width: 0px) and (max-width:479px) {
     #vkvk{
         top: 0px;
+    }
+    #site_name {
+        display: none
     }
     #map1 {
         display: none;
