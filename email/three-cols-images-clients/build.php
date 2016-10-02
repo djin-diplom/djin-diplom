@@ -2,7 +2,7 @@
 <?php
 
 $podpis = 0;
-$per = 2;
+$per = 1;
 
 switch ($per){
   case 1:
