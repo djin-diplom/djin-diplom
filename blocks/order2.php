@@ -5,6 +5,7 @@ $site = 'djin-diplom.96.lt';
 
 //$email = 'diplomdjin@gmail.com';
 //$site = 'djin-diplom.hol.es';
+
 //Если форма отправлена
 if(isset($_POST['submit'])) {
 

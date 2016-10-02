@@ -5,7 +5,7 @@ $email = 'djin.diplom@gmail.com';
 $site = 'djin-diplom.96.lt';
 
 //$email = 'diplomdjin@gmail.com';
-//$site = 'djin-diplom.hol.es';
+//$site = 'http://djin-diplom.hol.es';
 
 ?>
 <html lang="ru">
@@ -141,7 +141,7 @@ img {
   <tr>
     <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
       <br>
-      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href="" target="_blank">"Диплом от Джина"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
+      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href=<?php echo $site; ?>>"Диплом от Джина"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
     </td>
   </tr>
   <tr>
@@ -672,9 +672,12 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
 
             <strong>Диплом от Джина</strong><br>
             <span class="ios-footer">
-              Москва, ул. Строителей 11<br>
+              г. Москва ул. Строителей 11 <br>
             </span>
-            <a href="" style="color:#aaaaaa" target="_blank"><?php echo $site; ?></a><br>
+            <span class="ios-footer">
+              Вы получили это письмо, поскольку подписались на рассылку нашего сайта<br>
+            </span>
+            <a href=<?php echo $site; ?> style="color:#aaaaaa"><?php echo $site; ?></a><br>
 
             <br><br>
 

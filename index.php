@@ -181,11 +181,9 @@ padding-top: 10px;">
 <div class="slide_panel_wrap_2">
 	<div class="slide_panel_2">
 		<p class="open">Наши контакты<br><br><span class="blink">Нажми!</span></p>
-		<p>Для клиентов</p>
+		<p>Для Заказчиков</p>
 		<p><a href="mailto:<? echo $email; ?>" target="_blank"><? echo $email; ?></a></p>
-		<p><a href="https://freelance.ru/djin-diplom" target="_blank">Биржа frelance</a></p>
-		<p><a href="https://www.fl.ru/users/djin-diplom/" target="_blank">Биржа fl</a></p>
-		<p><a href="https://www.weblancer.net/users/djindiplom/" target="_blank">Биржа weblancer</a></p>
+		<p><a href="http://www.moscowmap.ru/imap_moscow.shtml#lat=55.68809088681727&lng=37.53355085849762&zoom=17&dom=71090" target="_blank">Москва ул. Строителей д. 11 офисы 234-246</a></p
 		<p><a href="#order1">Форма для заказа</a></p>
 		<p><a href="" target="_blank"><?php echo $site; ?></a></p>
 	</div>
