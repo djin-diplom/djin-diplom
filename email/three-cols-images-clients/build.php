@@ -139,7 +139,7 @@ img {
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-            Продаем легко уникальные готовые работы: рефераты, курсовые, дипломные проекты. Выполняем срочные контрольные, отчеты по практике и онлайн-экзамены. Закажите работу прямо сейчас, ждем вашу заявку!<br> <span style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">В письме укажите (1)тему работы, (2)тип (реферат, курсовая, диплом), (3)количество страниц, (4)уровень уникальности.</span>
+            Продаем легко уникальные готовые работы: рефераты, курсовые, дипломные проекты. Выполняем срочные контрольные, отчеты по практике и онлайн-экзамены. Закажите работу сейчас, ждем вашу заявку на почте!<br> <span style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">В письме укажите (1)тему работы, (2)тип (реферат, курсовая, диплом), (3)количество страниц, (4)уровень уникальности.</span>
           <br><span style="color: green;">Новая акция: назовите желаемую стоимость работы, мы постараемся снизить наши цены!</span>
           </td>
         </tr>
@@ -150,7 +150,7 @@ img {
   <tr>
     <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
       <br>
-      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Студия <a href=<?php echo $site; ?>>"<? echo $site_name; ?>"</a> предоставляет вам уникальные готовые работы по трем фиксированным ценам, в одном заказе вы получите сразу несколько работ без доплаты. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы через пару секунд после оплаты!</div>
+      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компания <a href=<?php echo $site; ?>>"<? echo $site_name; ?>"</a> предоставляет вам лучшие готовые работы по трем фиксированным ценам. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы в течение одного часа после оплаты!</div>
     </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
         <tr>
           <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
             <br><br>
-            Директор студии <a href="" target="_blank">"<? echo $site_name; ?>"</a>, кандидат философских наук <a href="mailto:<?php echo $email; ?>" target="_blank">Карина Ивановна Керн</a>.
+            Директор компании <a href="" target="_blank">"<? echo $site_name; ?>"</a>, кандидат философских наук <a href="mailto:<?php echo $email; ?>" target="_blank">Карина Ивановна Керн</a>.
             <br><br>
             Если работа не понравится – вы сможете написать жалобу по стандартной форме, и мы вернем вам деньги.
             Будьте с нами, и мы будем поддерживать вас!
