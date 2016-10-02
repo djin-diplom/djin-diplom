@@ -671,12 +671,11 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
         <tr>
           <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
             <br><br>
-            Директор студии <a href="" target="_blank">"<? echo $site_name; ?>"</a>, кандидат философских наук <a href="https://freelance.ru/djin-diplom" target="_blank">Карина Ивановна Керн</a>.
+            Директор студии <a href="" target="_blank">"<? echo $site_name; ?>"</a>, кандидат философских наук <a href="mailto:<?php echo $email; ?>" target="_blank">Карина Ивановна Керн</a>.
             <br><br>
             Если работа не понравится – вы сможете написать жалобу по стандартной форме, и мы вернем вам деньги.
             Будьте с нами, и мы будем поддерживать вас!
-            Мы гарантируем конфиденциальность всех сделок и актуальность предоставляемой информации. Наши электронные адреса <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>.
-            Возможна безопасная сделка на биржах фриланса <a href="https://freelance.ru/djin-diplom" target="_blank">freelance.ru</a>, <a href="https://www.weblancer.net/users/djindiplom/" target="_blank">weblancer.net</a> или <a href="https://www.fl.ru/users/djin-diplom/" target="_blank">fl.ru</a>.
+            Мы гарантируем конфиденциальность всех сделок и актуальность предоставляемой информации. Наш адрес <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>.
             <br><br>
 
             <strong><? echo $site_name; ?></strong><br>
