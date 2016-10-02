@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <?php
 
+$podpis = 0;
 $per = 2;
 
 switch ($per){
@@ -682,9 +683,11 @@ ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the 
             <span class="ios-footer">
               г. Москва ул. Строителей 11 <br>
             </span>
+            <? if($podpis):?>
             <span class="ios-footer">
               Вы получили это письмо, поскольку подписались на рассылку нашего сайта<br>
             </span>
+            <? endif ?>
             <a href=<?php echo $site; ?> style="color:#aaaaaa"><?php echo $site; ?></a><br>
 
             <br><br>
