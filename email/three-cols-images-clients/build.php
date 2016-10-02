@@ -1,11 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <?php
 
-//$email = 'djin.diplom@gmail.com';
-//$site = 'djin-diplom.96.lt';
+$per = 1;
 
-$email = 'diplomdjin@gmail.com';
-$site = 'http://djin-diplom.hol.es';
+switch ($per){
+  case 1:
+    $email = 'djin.diplom@gmail.com';
+    $site = 'djin-diplom.96.lt';
+    $site_name = 'Диплом от Джина';
+    break;
+  case 2:
+    $email = 'diplomdjin@gmail.com';
+    $site = 'http://djin-diplom.hol.es';
+    $site_name = 'Диплом от Джайны';
+    break;
+}
 
 ?>
 <html lang="ru">

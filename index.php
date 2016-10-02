@@ -2,12 +2,12 @@
 <html>
 <head>
 	<? include("blocks/head.php");?>
-	<title>Диплом от Джина</title>
+	<? include("email.php");?>
+	<title><? echo $site_name; ?></title>
 	<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 <? include("blocks/order.php");?>
-<? include("email.php");?>
 	<div id="marquee">По цене одного заказа вы получите сразу несколько работ! В нашей команде только эксперты по всем основным дисциплинам. </div>
 <div id="marquee2">По цене одного заказа вы получите сразу несколько работ!</div>
 <? include("blocks/header.php");?>

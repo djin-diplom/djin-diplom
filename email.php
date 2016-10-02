@@ -6,9 +6,17 @@
  * Time: 8:09
  */
 
+$per = 1;
 
-//$email = 'djin.diplom@gmail.com';
-//$site = 'djin-diplom.96.lt';
-
-$email = 'diplomdjin@gmail.com';
-$site = 'djin-diplom.hol.es';
+switch ($per){
+    case 1:
+        $email = 'djin.diplom@gmail.com';
+        $site = 'djin-diplom.96.lt';
+        $site_name = 'Диплом от Джина';
+        break;
+    case 2:
+        $email = 'diplomdjin@gmail.com';
+        $site = 'http://djin-diplom.hol.es';
+        $site_name = 'Диплом от Джайны';
+        break;
+}
