@@ -481,12 +481,12 @@ OnG4N9JseSZrvtsjvTadpnf9E7DYSnT0poqflUL+k3m027y1rSte0bO01bEBAQEBAQEBAQEBAQEB
 AQEBAQEBAQEBAQEBAQEDniKIdbH46XHiLjjNL0i8bS2raazvDM4zCYigctBe1S19Q2ZeVrqbN8BP
 PavwuK2/4953+x0MWSmXnJO0/gttlbMygPUOd+IuLBCRqFUkkHxJvOpotDjwV6o7z8+6rmzTb0x2
 /VaToK5AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQED/
-2Q==" border="0" alt="Срочное выполнение работ за одни сутки по щадящей цене!" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+2Q==" border="0" alt="Срочное выполнение работ (за одни сутки) по щадящей цене!" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                 </tr>
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Срочное выполнение работ за одни сутки по щадящей цене!</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Срочное выполнение работ (за одни сутки) по щадящей цене!</td>
                 </tr>
               </table>
               <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Специалисты нашего экспертного отдела по разным дисциплинам выполнят для вас срочный заказ. Работу напишут не случайные авторы, а кандидаты наук и преподаватели по вашей специальности.</div>
