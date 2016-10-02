@@ -2,7 +2,7 @@
 <?php
 
 $podpis = 0;
-$per = 2;
+$per = 1;
 
 switch ($per){
   case 1:
@@ -331,7 +331,7 @@ TcIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgEZWXgxKNydCp9VuR87/Sbo9amvTqRZrlvjL1
 Wv3JOaSUIBpYvEtfgpAF+ZPsoOrdT0E2wgven2+r/nqaLLJb5Yd/ov56GCjsOnxcdQmq/V9PgugE
 zlkz1yw9lfD7mEcSG+aftP4/YkwLZSOSj7AEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAE
 AwY3DCotrkEEFWGqsNCJlGXK9muytTWjzTrOMnS595cwfhqPSetJ9meRlJdJL5fzZ9Ls2QBUe8bf
-Rf7/AFnnRdz1uT6Lp8TLRpBRYf8AJ5knmZ4233MoxUVpHueGQgCAIAgCAIAgCAIAgH//2Q==" border="0" alt="The White Whale" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+Rf7/AFnnRdz1uT6Lp8TLRpBRYf8AJ5knmZ4233MoxUVpHueGQgCAIAgCAIAgCAIAgH//2Q==" border="0" alt="Акция Три Цены" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                 </tr>
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
@@ -339,7 +339,7 @@ Rf7/AFnnRdz1uT6Lp8TLRpBRYf8AJ5knmZ4233MoxUVpHueGQgCAIAgCAIAgCAIAgH//2Q==" border
                   <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">"Три цены" Дипломная = 3400 р.<br>Курсовая = 1700 р.<br>Реферат = 850 р.</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Зачем заказывать работу в компании-посреднике, которая возьмет за один текст в 5 раз больше гонорара автора?  Мы предлагаем качество и уникальность по трем фиксированным низким ценам прямо от авторов.</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Зачем заказывать работу в крупной раскрученной компании, которая возьмет за один текст в 5 раз больше его стоимости?  Мы предлагаем качество и уникальность по трем фиксированным низким ценам прямо от авторов.</div>
               <br>
             </td>
           </tr>
@@ -481,15 +481,15 @@ OnG4N9JseSZrvtsjvTadpnf9E7DYSnT0poqflUL+k3m027y1rSte0bO01bEBAQEBAQEBAQEBAQEB
 AQEBAQEBAQEBAQEBAQEDniKIdbH46XHiLjjNL0i8bS2raazvDM4zCYigctBe1S19Q2ZeVrqbN8BP
 PavwuK2/4953+x0MWSmXnJO0/gttlbMygPUOd+IuLBCRqFUkkHxJvOpotDjwV6o7z8+6rmzTb0x2
 /VaToK5AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQED/
-2Q==" border="0" alt="I am Ishmael" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+2Q==" border="0" alt="Срочное выполнение работ за одни сутки по щадящей цене!" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                 </tr>
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">По цене одного заказа вы получите сразу НЕСКОЛЬКО уникальных работ!</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Срочное выполнение работ за одни сутки по щадящей цене!</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Мы найдем для вас несколько уникальных работ по цене одного заказа, чтобы вы смогли выбрать лучшую, а второй и третьей поделиться с друзьями! Вот почему: наша база насчитывает более 300000 работ.</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Специалисты нашего экспертного отдела по разным дисциплинам выполнят для вас срочный заказ. Работу напишут не случайные авторы, а кандидаты наук и преподаватели по вашей специальности.</div>
               <br>
             </td>
           </tr>
@@ -641,15 +641,15 @@ b8zGxna22OOhHRFsGcEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEBCxPCoKhuWaJ
 sg/ENR4HcLiUIy+JHUZyjvFmLrvZLRvcXRvkjvy0cB5nX5qvLSRfDaLUdZNcrJmcZ9mfQuGWquPx
 RfmHhRS0yW2SaGsb3aP3Q4CYyP2t/BpH/kVnW+HqX9X6Flax+xdUeBEG4k/0/wC5U5+HZXxfp/yH
 q8rg1GG4aToXj/L/ADXFHgUJy3n+n/JTt1GOxaw4awe9d3jaw8hotzTeEaenfGX8ytK6T42JoWol
-ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="The Albatross flew across the ocean" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+ghCAIAgCAIAgCAIAgCAIAgCAIAgCA//Z" border="0" alt="Мы продаем только уникальные работы по правилу Один Текст В Одни Руки" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                 </tr>
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Мы продаем только уникальные работы по правилу "один текст в одни руки".</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Мы продаем только уникальные работы и ведем поддержку до самого экзамена.</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Соблюдаются стандарты уникальности Etxt и антиплагиатRu. Наши эксперты подберут для вас лучший диплом, курсовую или реферат и совершено бесплатно вышлют часть текста для ознакомления перед покупкой.</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Соблюдаются стандарты уникальности Etxt, ап.ВУЗ и антиплагиат.Ru. Наши эксперты подберут для вас лучший диплом, курсовую или реферат и совершено бесплатно вышлют часть текста для ознакомления перед покупкой.</div>
               <br>
             </td>
           </tr>
