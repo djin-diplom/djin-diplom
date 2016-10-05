@@ -2,11 +2,11 @@
 <?php
 
 $podpis = 0;
-$per = 3;
+$per = 1;
 
 switch ($per){
   case 1:
-    $email = 'djin.diplom@gmail.com';
+    $email = 'djin.dip.96@gmail.com';
     $site = 'djin-diplom.96.lt';
     $site_name = 'Диплом от Джина';
     break;
