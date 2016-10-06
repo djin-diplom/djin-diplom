@@ -239,7 +239,7 @@ img {
   </tr>
   <tr>
     <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Возможно заключение договора, также вы можете приехать к нам в отдел маркетинга по адресу Москва ул. Строителей д. 11 офисы 234-236.
+      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Возможно заключение договора, также вы можете приехать к нам в отдел маркетинга по адресу Москва ул. Строителей д. 11 к. 1 офисы 234-236.
     </td>
   </tr>
 </table>

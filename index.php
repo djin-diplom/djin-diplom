@@ -184,7 +184,7 @@ padding-top: 10px;">
 		<p>Для Заказчиков</p>
 		<p><a href="mailto:<? echo $email; ?>" target="_blank"><? echo $email; ?></a></p>
 		<p><a href="mailto:djin.diplom@gmail.com" target="_blank">djin.diplom@gmail.com</a></p>
-		<p><a href="http://www.moscowmap.ru/imap_moscow.shtml#lat=55.68809088681727&lng=37.53355085849762&zoom=17&dom=71090" target="_blank">Москва ул. Строителей д. 11 офисы 234-236</a></p
+		<p><a href="http://www.moscowmap.ru/imap_moscow.shtml#lat=55.68809088681727&lng=37.53355085849762&zoom=17&dom=71090" target="_blank">Москва ул. Строителей д. 11 к. 1 офисы 234-236</a></p
 		<p><a href="#order1">Форма для заказа</a></p>
 		<p><a href="" target="_blank"><?php echo $site; ?></a></p>
 	</div>
