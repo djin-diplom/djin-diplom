@@ -53,12 +53,14 @@
 	<div>
 		<p class="set"><span>*</span>Заказ</p>
 		<select style="width: 310px;height: 30px;border: 1px solid #e3e3e3;" name="type">
-			<option>Готовая дипломная</option>
-			<option>Готовая курсовая</option>
-			<option>Готовый реферат</option>
-			<option>Экспресс-контрольная</option>
-			<option>Экспресс-отчет по практике</option>
+			<option>Дипломная</option>
+			<option>Курсовая</option>
+			<option>Реферат</option>
+			<option>Контрольная</option>
+			<option>Отчет по практике</option>
 			<option>Оналайн-экзамен</option>
+			<option>Эссе</option>
+			<option>Другое</option>
 		</select>
 	</div>
 	<!--<div>
@@ -101,7 +103,7 @@
 </div>
 
 
-<h2 id="zacagiZeichas">Закажи сейчас, и мы найдем для тебя несколько работ <br><span>по цене одного заказа!</span></h2>
+<h2 id="zacagiZeichas">Закажи оптом, и мы выполним для тебя несколько работ <br><span>с большой скидкой!</span></h2>
 
 		<img id="map1" src="img/mapdj.jpg" width="940">
 <div class="box2">
@@ -128,7 +130,7 @@ padding-top: 10px;">
 		</div>
 		<div class="box3">
 			<img src="img/otzivi/3.jpg">
-			<p style="font-size: 12px;">Алена Ф. Преподаватель, кандидат физико-математических наук: "Мы выбираем только лучшие работы и при этом руководствуемся правилом ОДНА РАБОТА В ОДНИ РУКИ."</p>
+			<p style="font-size: 12px;">Алена Ф. Преподаватель, кандидат физико-математических наук: "Мы выполняем только лучшие работы и при этом руководствуемся правилом ОДНА РАБОТА В ОДНИ РУКИ."</p>
 			<p class="name"></p>
 		</div>
 		<div class="box3" style="margin-left: 45px;">
@@ -159,7 +161,7 @@ padding-top: 10px;">
 	<a class="close"></a>
 	<h2>Акция</h2>
 	<h2>"Три цены"</h2>
-	<h3>Диплом=3400</h3>
+	<h3>Диплом=5100</h3>
 	<h3>Курсовая=1700</h3>
 	<h3>Реферат=850</h3>
 	<h2>Срочное</h2>
@@ -173,7 +175,7 @@ padding-top: 10px;">
 <div class="slide_panel_wrap">
 	<div class="slide_panel">
 		<p class="open">Три цены для студентов!<br><span class="blink">Нажми!</span></p>
-		<p>Предоставляем уникальные работы по трем ценам. Также запускаем новую акцию "Назови свою цену"!</p>
+		<p>Предоставляем уникальные работы по трем ценам. Также постоянно действуют скидки и акции!</p>
 		<a href="#order2"	>Подробнее...</a>
 	</div>
 </div>

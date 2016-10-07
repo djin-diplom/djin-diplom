@@ -29,7 +29,7 @@ switch ($per){
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>Письмо для Клиентов компании "<? echo $site_name; ?>"</title>
+  <title>Письмо для будущих Заказчиков компании "<? echo $site_name; ?>"</title>
   
   <style type="text/css">
 body {
@@ -145,8 +145,7 @@ img {
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-            Продаем легко уникальные готовые работы: рефераты, курсовые, дипломные проекты. Выполняем срочные контрольные, отчеты по практике и онлайн-экзамены. Закажите работу сейчас, ждем вашу заявку на почте!<br> <span style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">В письме укажите (1)тему работы, (2)тип (реферат, курсовая, диплом), (3)количество страниц, (4)уровень уникальности.</span>
-          <br><span style="color: green;">Новая акция: назовите желаемую стоимость работы, мы постараемся снизить наши цены!</span>
+            Выполняем уникальные работы: рефераты, курсовые, дипломные проекты. Делаем срочные контрольные, отчеты по практике и онлайн-экзамены. Закажите работу сейчас, ждем вашу заявку на почте!<br> <span style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">В письме укажите (1)тему работы, (2)тип (реферат, курсовая, диплом), (3)количество страниц, (4)уровень уникальности.</span>
           </td>
         </tr>
         <tr>
@@ -156,7 +155,7 @@ img {
   <tr>
     <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
       <br>
-      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компания <a href=<?php echo $site; ?>>"<? echo $site_name; ?>"</a> предоставляет вам лучшие готовые работы по трем фиксированным ценам. Мы абсолютно бесплатно вышлем вам часть для ознакомления. Вы получите работы в течение одного часа после оплаты!</div>
+      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компания <a href=<?php echo $site; ?>>"<? echo $site_name; ?>"</a> предоставляет вам лучшие работы по трем фиксированным ценам. Вы получите работы в течение одного часа после оплаты!</div>
     </td>
   </tr>
   <tr>
@@ -177,10 +176,10 @@ img {
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">"Три цены" Дипломная = 3400 р.<br>Курсовая = 1700 р.<br>Реферат = 850 р.</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">"Три цены" Дипломная = 5100 р.<br>Курсовая = 1700 р.<br>Реферат = 850 р.</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Зачем заказывать работу в крупной раскрученной компании, которая возьмет за один текст в 5 раз больше его стоимости?  Мы предлагаем качество и уникальность по трем фиксированным низким ценам прямо от авторов.</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Зачем заказывать работу в крупной раскрученной компании, которая возьмет за один текст в 5 раз больше его стоимости?  Мы предлагаем качество и уникальность по низким ценам прямо от авторов.</div>
               <br>
             </td>
           </tr>
@@ -223,10 +222,10 @@ img {
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Мы продаем только уникальные работы и ведем поддержку до самого экзамена.</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Мы выполняем только уникальные работы и ведем поддержку до самого экзамена.</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Соблюдаются стандарты уникальности Etxt, ап.ВУЗ и антиплагиат.Ru. Наши эксперты подберут для вас лучший диплом, курсовую или реферат и совершено бесплатно вышлют часть текста для ознакомления перед покупкой.</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">Соблюдаются стандарты уникальности Etxt, ап.ВУЗ и антиплагиат.Ru. Наши авторы выполнят для вас лучший диплом, курсовую или реферат. Всего 25% предоплаты!</div>
               <br>
             </td>
           </tr>
@@ -239,7 +238,7 @@ img {
   </tr>
   <tr>
     <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-      Мы ГАРАНТИРУЕМ бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Возможно заключение договора, также вы можете приехать к нам в отдел маркетинга по адресу Москва ул. Строителей д. 11 к. 1 офисы 234-236.
+      Мы гарантируем бесплатную корректировку работы нашими экспертами до самой сдачи и через месяц после нее! Ждем данные вашей работы на <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>. Возможно заключение договора, также вы можете приехать к нам в отдел маркетинга по адресу Москва ул. Строителей д. 11 к. 1 офисы 234-236.
     </td>
   </tr>
 </table>
